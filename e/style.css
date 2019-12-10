@@ -1,0 +1,131 @@
+#conta,#ha,#textaligne1,#textaligne2,#textaligne3,.destitulo,.ha,.sobre,.textocentro{
+    text-align:center
+}
+
+
+.navbar{
+    background-image: url("fundo4.png");
+}
+
+.carousel-inner img{
+    width:100%;
+    height:300px
+}
+
+.sobre{
+    color:grey
+}
+
+#destaque{
+    padding:3%
+}
+
+#centralizar{
+    margin:10%;
+    padding-left:23%
+}
+
+#ha,.ha{
+    display:block
+}
+
+.hidden{
+    display:none;
+    visibility:hidden
+}
+
+.hr{
+    color:red;
+    background-color:#000
+}
+
+.container{
+    display:block;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:550px
+}
+
+.card,.display{
+    display:inline-block;
+}
+
+.block{
+    display: block;
+}
+
+
+.cor{
+    color: #49a083; 
+}
+
+.fontesize{
+    font-size: 150%;
+}
+
+.fontesizeV{
+    font-size: 100%;
+}
+
+/*estilo da foto de perfil*/
+
+#borda_perfil{
+    border: 5px outset pink;
+}
+
+.borda_label{
+    border: 2px solid pink;
+}
+
+/*estilo na tela de alterar foto*/
+
+#alt_borda_perfil{
+    border: 2px outset blue;
+}
+
+/*estilo do botao da foto de perfil*/
+
+.btn_foto {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn_foto_perfil {
+    border: 1px solid;
+    color: white;
+    background-color: rgb(33, 88, 45);
+    background-size:100% 100%;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .btn_foto #foto_perfil {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+   
+
+.inlineblock{
+    display: inline-block;
+}
+
+.red{
+    color: red;
+}
+
+.fonteg{
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+}
+
+.fonte{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
